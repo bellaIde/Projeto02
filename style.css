@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;  
+    
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+    min-height: 100vh;
+}
+
+.pagina {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+/* quando o usuario passar o mouse em cima no caso "hover" a fonte vai ficar em bold */
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+/* removendo o sublinhado que estava originalmente no código */
+ul li a {
+    color: #1F1534;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+    font-weight: normal;
+
+    /* controlando a largura do texto principal para que haja uma quebra na linha */
+    width: 490px;
+}
+
+section p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 40px 0;
+}
+
+h1 span {
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium; 
+    color: white;
+
+    /* estilização dp botão */
+    background: #69B99D;
+    border: none;
+    width: 179px;
+    height: 56px;
+    gap: 10px;
+
+    /* centralização do conteudo interno*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border radius para o arrendondamento das bordas */
+    border-radius: 4px;
+
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background: #579982;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 82px;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+a {
+    color: #1F1534;
+    text-decoration: none;
+}
+
+#bolinhas {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
